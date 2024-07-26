@@ -1,10 +1,8 @@
-import React from 'react'; 
 import NavListItem from './NavListItem';
 import navListData from '../data/navListData';
 import Search from './Search';
 
 import "../styles/header.css"; 
-
 
 function Header() {
   return (

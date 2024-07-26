@@ -1,6 +1,5 @@
-import React from 'react'
 import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import "../styles/search.css"
+import "../styles/search.css"; 
 
 function Search() {
   return (

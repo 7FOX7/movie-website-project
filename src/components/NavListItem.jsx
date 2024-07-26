@@ -1,4 +1,3 @@
-import React from 'react';
 import "../styles/navListItem.css"; 
 
 function NavListItem({name, link, active}) {
