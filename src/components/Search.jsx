@@ -5,7 +5,7 @@ function Search() {
   return (
     <div className="search">
         <input type="text" placeholder="Search"/>
-        <SearchOutlinedIcon className="search-icon"/>
+        <SearchOutlinedIcon fontSize="medium" className="search-icon"/>
     </div>
   )
 }

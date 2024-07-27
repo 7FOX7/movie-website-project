@@ -17,6 +17,7 @@
     border-radius: 4px;
     padding: 0 10px 0 45px !important; 
     backdrop-filter: blur(10px);
+    font-size: 1.1rem; 
 }
 
 .search input::placeholder {
