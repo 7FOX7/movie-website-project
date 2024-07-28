@@ -44,12 +44,5 @@
     object-fit: cover; 
     object-position: center; 
     font-size: 8rem; 
-    visibility: hidden; 
-    opacity: 0; 
     transition: 1s; 
-}
-
-.background-image.active {
-    visibility: visible;
-    opacity: 1; 
 }

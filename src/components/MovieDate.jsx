@@ -2,11 +2,11 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import "../styles/movieDate.css"; 
 
-function MovieDate() {
+function MovieDate({movie}) {
   return (
-    <Box className="date active" color="contentTextColor.main">
+    <Box className="date" color="contentTextColor.main">
         <Typography variant="h3" typography="contentText3">
-            On January 10
+            {movie.date}
         </Typography>
     </Box>
   )

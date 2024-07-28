@@ -1,4 +1,5 @@
-import './App.css'
+import './App.css'; 
+import 'swiper/css';
 import Banner from './components/Banner'; 
 import Header from './components/Header'; 
 

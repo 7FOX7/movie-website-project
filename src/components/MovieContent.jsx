@@ -6,20 +6,20 @@ import AddIcon from '@mui/icons-material/Add';
 
 import "../styles/movieContent.css"; 
 
-function MovieContent() {
+function MovieContent({movie}) {
   return (
-    <Box className="content active" color="contentTextColor.main">
-        <img src="" alt="Movie Title" className="movie-title" />
+    <Box className="content" color="contentTextColor.main">
+        <img src={movie.titleImg} style={{maxWidth: "250px", marginBlock: "15px"}} alt="Movie Title" className="movie-title" />
         <Typography variant="h4" typography="contentText1">
-            <span>Year</span>
+            <span>{movie.year}</span>
             <span>
-                <i>Age</i>
+                <i>{movie.ageLimit}</i>
             </span>
-            <span>Length</span>
-            <span>Category</span>
+            <span>{movie.length}</span>
+            <span>{movie.category}</span>
         </Typography>
         <Typography variant="body1" typography="contentText2">
-            still something to prove
+            {movie.description}
         </Typography>
         <Button sx={{
           position: "relative", 

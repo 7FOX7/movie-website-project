@@ -31,6 +31,9 @@ const theme = createTheme({
         },
         buttonColor: {
             main: "rgb(255, 255, 255)"
+        }, 
+        crossColor: {
+            main: "rgb(255, 255, 255)"
         }
     }, 
 }); 

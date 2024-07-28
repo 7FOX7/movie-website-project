@@ -17,7 +17,6 @@ function Header() {
                     key={nav.id}
                     name={nav.name}
                     link={nav.link}
-                    active={nav.active}
                 />
             )}
         </ul>
