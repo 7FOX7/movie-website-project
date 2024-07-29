@@ -8,7 +8,7 @@ import "../styles/movieContent.css";
 
 function MovieContent({movie}) {
   return (
-    <Box className="content" color="contentTextColor.main">
+    <Box className="content" color="textColor1.main">
         <img src={movie.titleImg} style={{maxWidth: "250px", marginBlock: "15px"}} alt="Movie Title" className="movie-title" />
         <Typography variant="h4" typography="contentText1">
             <span>{movie.year}</span>
@@ -35,7 +35,7 @@ function MovieContent({movie}) {
           gap: "10px", 
           ':hover': {
             background: "var(--primary)", 
-            color: "buttonColor.main"
+            color: "textColor2.main"
           }}}>
           <BookmarkBorderOutlinedIcon />
           Book
@@ -45,7 +45,7 @@ function MovieContent({movie}) {
           position: "relative", 
           display: "inline-flex",
           background: "var(--primary)", 
-          color: "buttonColor.main", 
+          color: "textColor2.main", 
           fontSize: "1.1rem", 
           fontWeight: 400,  
           letterSpacing: "1px", 

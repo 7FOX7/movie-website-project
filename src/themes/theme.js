@@ -23,16 +23,17 @@ const theme = createTheme({
         }, 
         contentText4: {
             fontSize: "1.5rem"
+        }, 
+        contentText5: {
+            fontSize: "1.2rem", 
+            fontWeight: 400
         }
     }, 
     palette: {
-        contentTextColor: {
+        textColor1: {
             main: "rgb(255, 255, 255, 0.5)"
         },
-        buttonColor: {
-            main: "rgb(255, 255, 255)"
-        }, 
-        crossColor: {
+        textColor2: {
             main: "rgb(255, 255, 255)"
         }
     }, 

@@ -16,7 +16,7 @@ function PlayButton({movie}) {
     <>
       <Box className="trailer">
         <a href="" className="play-button" onClick={toggleModal}>
-            <PlayArrowOutlinedIcon fontSize="large" sx={{color: "buttonColor.main"}}/>
+            <PlayArrowOutlinedIcon fontSize="large" sx={{color: "textColor2.main"}}/>
         </a>
         <Typography variant="body1" typography="contentText4">
             Watch Trailer

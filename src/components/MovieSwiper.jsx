@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react"; 
 
 import 'swiper/css/effect-coverflow'; 
-import 'swiper/css/pagination'; 
 import { Autoplay, EffectCoverflow } from "swiper/modules";
 
 import "../styles/movieSwiper.css";
