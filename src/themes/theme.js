@@ -10,13 +10,13 @@ const theme = createTheme({
         }
     }, 
     typography: {
-        contentText1: {
-            fontWeight: 400, 
-            fontSize: "2.3rem"
+        contentText1: { 
+            fontSize: "2.3rem",
+            fontWeight: 400,
         }, 
-        contentText2: {
-            fontWeight: 400, 
-            fontSize: "1rem",  
+        contentText2: { 
+            fontSize: "1rem",
+            fontWeight: 400,  
         }, 
         contentText3: {
             fontSize: "6rem"
@@ -25,8 +25,16 @@ const theme = createTheme({
             fontSize: "1.5rem"
         }, 
         contentText5: {
-            fontSize: "1.2rem", 
+            fontSize: "1.1rem", 
             fontWeight: 400
+        }, 
+        contentText6: {
+            fontSize: "1.4rem", 
+            fontWeight: 400
+        }, 
+        contentText7: {
+            fontSize: "1rem", 
+            fontWeight: 600
         }
     }, 
     palette: {

@@ -9,7 +9,7 @@ import "../styles/movieContent.css";
 function MovieContent({movie}) {
   return (
     <Box className="content" color="textColor1.main">
-        <img src={movie.titleImg} style={{maxWidth: "250px", marginBlock: "15px"}} alt="Movie Title" className="movie-title" />
+        <img src={movie.titleImg} style={{maxWidth: "250px", maxHeight: "100px", minHeight: "100px", marginBlock: "15px"}} alt="Movie Title" className="movie-title" />
         <Typography variant="h4" typography="contentText1">
             <span>{movie.year}</span>
             <span>

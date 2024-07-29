@@ -31,7 +31,7 @@ function MovieSwiper({slides, onClick}) {
             {
                 slides?.map(slide => (
                     <SwiperSlide key={slide.id} onClick={() => onClick(slide)} draggable={false}>
-                        <img src={slide.previewImg} alt={slide.title} />
+                        <img src={slide.previewImg} alt={slide.title} style={{height: "100%"}}/>
                     </SwiperSlide>
                 ))
             }

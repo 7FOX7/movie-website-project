@@ -5,6 +5,12 @@
     background: #000 !important; 
     box-shadow: 0 0 16px rgba(255, 255, 255, 0.5); 
     transition: 0.5s;
+    max-width: 185px; 
+    justify-self: center;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer; 
 }
 
 .movie-card::before {
@@ -28,6 +34,7 @@
 
 .movie-card .content {
     position: absolute; 
+    padding-inline: 10px; 
     top: 0; 
     left: 0; 
     width: 100%; 
@@ -36,6 +43,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    opacity: 0; 
+    visibility: hidden;
+    transition: 0.5s;
+    transform: scale(0);
 }
 
 .movie-card .content h4 {

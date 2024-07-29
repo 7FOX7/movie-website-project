@@ -1,7 +1,9 @@
 [
     {
       "id": 339241,
-      "title": "Dolorum optio tempore voluptas dignissimos",
+      "thumbnail": "../../src/images/blogs/blog-1.jpg", 
+      "category": "Movie Theatre",
+      "title": "Dolorum optio tempore voluptas dignissimos", 
       "author": {
         "name": "Adriana Fixen",
         "image": "../../src/images/blogs/blog-author-1.jpg"
@@ -12,6 +14,8 @@
 
     {
       "id": 218449,
+      "thumbnail": "../../src/images/blogs/blog-2.jpg",
+      "category": "Movie Theatre", 
       "title": "Possimus soluta ut id suscipit ea ut in quo quia et soluta",
       "author": {
         "name": "Monica Bulley",
@@ -22,6 +26,8 @@
 
     {
       "id": 631134,
+      "thumbnail": "../../src/images/blogs/blog-3.jpg",
+      "category": "Movie Theatre", 
       "title": "Nisi magni odit consequatur autem nulla dolorem",
       "author": {
         "name": "Patrick K.Luse",
@@ -32,6 +38,8 @@
 
     {
       "id": 634921,
+      "thumbnail": "../../src/images/blogs/blog-4.jpg",
+      "category": "Movie Theatre", 
       "title": "Non rem rerum nam cum quo minus olor distincti",
       "author": {
         "name": "Carly Pudey",

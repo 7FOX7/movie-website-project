@@ -13,7 +13,6 @@ function Banner() {
     const [movies, setMovies] = useState(null); 
     const [movie, setMovie] = useState(null); 
     // const smallScreen = useMediaQuery(theme.breakpoints.down('laptop')); 
-
     const fetchData = () => {
         fetch('https://localhost:3000/data/movieData.json')
         .then(response => response.json())
@@ -46,7 +45,7 @@ function Banner() {
                         background: "blue"
                     }}>
                         <MovieDate movie={movie} />
-                        <PlayButton movie={movie}/>
+                        <PlayButton movie={movie} />
                     </Box>
                 </Box>
             </div> }
@@ -55,4 +54,4 @@ function Banner() {
     )
 }
 
-export default Banner
+export default Banner; 

@@ -9,16 +9,16 @@ function Header() {
   return (
     <header>
         <a href="" className="logo">
-            Cinema
+          Cinema
         </a>
         <ul className="nav">
-            {navListData.map(nav => 
-                <NavListItem 
-                    key={nav.id}
-                    name={nav.name}
-                    link={nav.link}
-                />
-            )}
+          {navListData.map(nav => 
+            <NavListItem 
+              key={nav.id}
+              name={nav.name}
+              link={nav.link}
+            />
+          )}
         </ul>
         <Search />
         <Button sx={{

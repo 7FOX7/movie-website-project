@@ -5,7 +5,7 @@ function Modal({movie, status, toggleModal}) {
   return (
     <div className={`movie-modal ${status ? 'active' : null}`}>
         <a href="#" className="modal-close">
-            <CloseIcon fontSize="large" sx={{color: "textColor.main"}} onClick={toggleModal}/>
+            <CloseIcon fontSize="large" sx={{color: "textColor2.main"}} onClick={toggleModal}/>
         </a>
         <iframe 
             width="1280"

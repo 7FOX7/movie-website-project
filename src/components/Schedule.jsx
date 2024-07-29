@@ -4,11 +4,11 @@ import Box from "@mui/material/Box";
 import "../styles/schedule.css"; 
 import { Typography } from "@mui/material";
 import Card from "./Card";
+import categories from "../data/categories";
 
 function Schedule() {
-  const [data, setData] = useState(null); 
   const [movies, setMovies] = useState(null); 
-
+  const [data, setData] = useState(null); 
   const fetchData = () => {
     fetch('https://localhost:3000/data/movieData.json')
     .then(response => response.json())
@@ -21,8 +21,19 @@ function Schedule() {
   }, []); 
 
   useEffect(() => {
-    setMovies(data)
-  }, []); 
+    setMovies(data); 
+  }, [data]); 
+
+
+  function handleClick(selectedCategory) {
+    // const chosenCategory = categories.find(category => category.name === selectedMovie.category); 
+    // const filteredMovies = movies.filter(movie => movie.category === chosenCategory.name); 
+
+    // filteredMovies.length === 0 ? setMovies(data) : setMovies(filteredMovies); 
+
+    const filteredMovies = data.filter(movie => movie.category === selectedCategory); 
+    filteredMovies.length === 0 ? setMovies(data) : setMovies(filteredMovies); 
+  }
 
   return (
     <section id="schedule" className="schedule">
@@ -33,19 +44,17 @@ function Schedule() {
               Opening this week
             </Typography>
           </Box>
-          <Box sx={{flexGrow: "1"}}></Box>
         </Box>
         <Box sx={{display: "flex", flexDirection: "row"}}>
-          <Box sx={{flexGrow: "1"}}>
-            <Box className="filters">
-              <Typography variant="body1">
-                Filters
-              </Typography>
-            </Box>
+          <Box sx={{flexGrow: "1", display: "flex", justifyContent: "center", alignItems: "center"}}>
+            <ul className="filters">
+              {categories.map(category => 
+                <li key={category.id} onClick={() => handleClick(category.name)}>{category.name}</li>
+              )}
+            </ul>
           </Box>
-          <Box sx={{flexGrow: "1"}}></Box>
         </Box>
-        <Box sx={{display: "flex", flexDirection: "column", marginTop: "5px"}}>
+        <Box sx={{marginTop: "30px", display: "grid", gridTemplateColumns: "auto auto auto auto auto auto", rowGap: "30px"}}>
           {movies && movies.length > 0 && movies.map(movie => <Card key={movie.id} movie={movie} />)}
         </Box>
       </Box>
@@ -53,4 +62,4 @@ function Schedule() {
   )
 }
 
-export default Schedule
+export default Schedule; 

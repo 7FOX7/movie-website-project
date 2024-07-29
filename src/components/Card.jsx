@@ -8,9 +8,8 @@ import "../styles/card.css";
 
 function Card({movie}) {
   return (
-    <Box sx={{display: "grid", gridTemplateColumns: "auto auto"}}>
         <Box className="movie-card">
-            <img src={movie.previewImg} alt="Preview Image"/>
+            <img src={movie.previewImg} alt="Preview Image" style={{width: "100%", maxHeight: "270px", minHeight: "270px"}}/>
             <Typography variant="body1" color="textColor2.main" typography="contentText5">
                 {movie.length} | {movie.category}
             </Typography>
@@ -24,7 +23,6 @@ function Card({movie}) {
                 </Typography>
             </Box>
         </Box>
-    </Box>
   )
 }
 
