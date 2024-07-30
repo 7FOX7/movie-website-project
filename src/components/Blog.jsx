@@ -9,7 +9,7 @@ function Blog() {
     const [blogs, setBlogs] = useState(null);
 
     const fetchData = () => {
-        fetch('./../public/data/blogData.json')
+        fetch('/data/blogData.json')
         .then(response => response.json())
         .then(data => setBlogs(data))
     }
