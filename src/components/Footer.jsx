@@ -1,7 +1,6 @@
 import Box  from "@mui/material/Box";
 import "../styles/footer.css"; 
-import { Typography, useMediaQuery } from "@mui/material";
-import theme from "../themes/theme";
+import { Typography } from "@mui/material";
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -9,7 +8,6 @@ import FooterNavItem from "./FooterNavItem";
 import { usefulLinks, locations } from "../data/links";
 
 function Footer() {
-    const smallDevice = useMediaQuery(theme.breakpoints.between("xs", "md"))
     return (
         <footer id='footer' className="footer">
             <Typography color="textColor2.main" variant="span" fontSize="14px">

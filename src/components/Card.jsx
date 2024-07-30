@@ -1,6 +1,4 @@
 import Box from "@mui/material/Box";
-import useMediaQuery from "@mui/material/useMediaQuery";
-import theme from "../themes/theme";
 import AddIcon from '@mui/icons-material/Add';
 import PlayArrowOutlinedIcon from '@mui/icons-material/PlayArrowOutlined';
 import { Typography } from "@mui/material";

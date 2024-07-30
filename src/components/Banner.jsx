@@ -1,9 +1,7 @@
 import { useEffect } from "react"; 
 import { useState } from "react";
 import "../styles/banner.css"; 
-// import theme from "../themes/theme";
 import Box from "@mui/material/Box";
-// import useMediaQuery from "@mui/material/useMediaQuery";
 import MovieContent from "./MovieContent";
 import MovieDate from "./MovieDate";
 import PlayButton from "./PlayButton";
@@ -12,7 +10,6 @@ import MovieSwiper from "./MovieSwiper";
 function Banner() {
     const [movies, setMovies] = useState(null); 
     const [movie, setMovie] = useState(null); 
-    // const smallScreen = useMediaQuery(theme.breakpoints.down('laptop')); 
     const fetchData = () => {
         fetch('http://localhost:3000/data/movieData.json')
         .then(response => response.json())
