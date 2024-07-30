@@ -9,7 +9,7 @@ function Blog() {
     const [blogs, setBlogs] = useState(null);
 
     const fetchData = () => {
-        fetch('https://localhost:3000/data/blogData.json')
+        fetch('http://localhost:3000/data/blogData.json')
         .then(response => response.json())
         .then(data => setBlogs(data))
     }
@@ -19,7 +19,7 @@ function Blog() {
     }); 
 
     return (
-        <section id="blogs" className="blogs">
+        <section id="blog" className="blogs">
             <Box sx={{width: "100%", display: "flex", flexDirection: "column"}}>
                 <Box sx={{flexGrow: "1"}}>
                     <Typography variant="h3" color="textColor2.main" typography="contentText4" className="section-title">

@@ -10,7 +10,7 @@ function Schedule() {
   const [movies, setMovies] = useState(null); 
   const [data, setData] = useState(null); 
   const fetchData = () => {
-    fetch('https://localhost:3000/data/movieData.json')
+    fetch('http://localhost:3000/data/movieData.json')
     .then(response => response.json())
     .then(data => setData(data))
     .catch(error => console.log(error.message)); 

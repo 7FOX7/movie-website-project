@@ -16,7 +16,7 @@ function Footer() {
                 <Box className="footer-top">
                     <Box className="container">
                         <Box className="footer-info">
-                            <a href="/" className="logo">
+                            <a href="/" className="logo" style={{width: "fit-content", height: "fit-content"}}>
                                 <Typography variant="span" color="textColor2.main" typography="contentText8">
                                     CINEMA
                                 </Typography>
@@ -83,7 +83,7 @@ function Footer() {
                     <Box className="copyright">
                         Copyright
                         <strong>
-                            <span>7FOX7</span>
+                            <span> 7FOX7</span>
                         </strong>
                         . All Rights Reserved
                     </Box>

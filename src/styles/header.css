@@ -15,7 +15,7 @@ header {
 header.scrolled {
     background: rgba(0, 0, 0, 0.6); 
     border-bottom: 2px solid var(--primary); 
-    border-image: linear-gradient(90deg, transparent, var(--primary), transparent); 
+    border-image: linear-gradient(90deg, transparent, var(--primary), transparent) 30; 
     backdrop-filter: blur(20px);  
     padding-block: 10px; 
     padding-inline: 100px; 

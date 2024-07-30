@@ -14,7 +14,7 @@ function Banner() {
     const [movie, setMovie] = useState(null); 
     // const smallScreen = useMediaQuery(theme.breakpoints.down('laptop')); 
     const fetchData = () => {
-        fetch('https://localhost:3000/data/movieData.json')
+        fetch('http://localhost:3000/data/movieData.json')
         .then(response => response.json())
         .then(data => setMovies(data))
         .catch(error => console.log(error.message)); 
@@ -29,7 +29,7 @@ function Banner() {
     }, []); 
 
     return (
-        <div className="banner">
+        <div id="home" className="banner">
             { movie && movies.length > 0 && 
             <div className="movie">
                 <img src={movie.backgroundImg} alt='Background Image' className="background-image" />

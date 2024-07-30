@@ -16,14 +16,15 @@ footer .footer-top .container {
 footer .footer-top .footer-info {
     display: grid;  
     grid-template-columns: auto; 
-    flex-grow: 1; 
+    flex: 1 1 45%; 
     overflow: hidden; 
 }
 
 footer .footer-top .footer-links {
     display: flex; 
     flex-direction: row; 
-    flex-grow: 1; 
+    flex: 1 1 auto; 
+    justify-content: space-between;
     overflow: hidden; 
 }
 

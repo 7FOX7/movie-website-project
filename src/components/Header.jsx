@@ -5,10 +5,10 @@ import "../styles/header.css";
 import Button from '@mui/material/Button';
 import LoginIcon from '@mui/icons-material/Login';
 
-function Header() {
+function Header({scroll}) {
   return (
-    <header>
-        <a href="" className="logo">
+    <header className={`${scroll > 100 ? 'scrolled' : undefined}`}>
+        <a href="/" className="logo">
           Cinema
         </a>
         <ul className="nav">
@@ -44,4 +44,4 @@ function Header() {
   )
 }
 
-export default Header
+export default Header; 

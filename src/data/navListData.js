@@ -17,13 +17,6 @@ const navListData = [
 
     {
         id: nanoid(4), 
-        link: '#trend', 
-        name: 'trend', 
-        active: false
-    }, 
-
-    {
-        id: nanoid(4), 
         link: '#blog', 
         name: 'blog', 
         active: false

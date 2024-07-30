@@ -8,4 +8,4 @@ function NavListItem({name, link}) {
   )
 }
 
-export default NavListItem
+export default NavListItem; 
