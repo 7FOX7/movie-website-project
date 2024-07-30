@@ -1,0 +1,69 @@
+footer .footer-top {
+    /* background: url("../images/footer-background.jpg") no-repeat left top; 
+    background-size: contain;  */
+    border-top: 1px solid var(--primary); 
+    border-bottom: 1px solid var(--primary);
+    padding-block: 25px;  
+    padding-inline: 8%; 
+    width: 100%; 
+}
+
+footer .footer-top .container {
+    display: flex;
+    width: 100%;   
+}
+
+footer .footer-top .footer-info {
+    display: grid;  
+    grid-template-columns: auto; 
+    flex-grow: 1; 
+    overflow: hidden; 
+}
+
+footer .footer-top .footer-links {
+    display: flex; 
+    flex-direction: row; 
+    flex-grow: 1; 
+    overflow: hidden; 
+}
+
+footer .footer-top .footer-info .logo span {
+    letter-spacing: 1px; 
+}
+
+footer .footer-top .social-links {
+    width: fit-content; 
+    height: fit-content; 
+}
+
+footer .footer-top .social-links a { 
+    color: #fff; 
+    margin-right: 15px; 
+    transition: 0.3s; 
+    text-decoration: none; 
+}
+
+footer .footer-top .social-links a:hover {
+    color: var(--primary); 
+}
+
+footer .footer-top h4 {
+    text-transform: uppercase;
+    position: relative; 
+    padding-bottom: 12px; 
+}
+
+footer .copyright {
+    text-align: center; 
+    padding-top: 30px; 
+}
+
+footer .credits {
+    padding-top: 10px; 
+    text-align: center; 
+}
+
+footer .credits a {
+    text-decoration: none; 
+    color: var(--primary); 
+}

@@ -5,6 +5,7 @@ import Header from './components/Header';
 import { useEffect } from 'react';
 import Cookies from 'js-cookie';
 import Main from './components/Main';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
       <Header />
       <Banner />
       <Main />
+      <Footer />
     </>
   )
 }

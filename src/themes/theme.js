@@ -1,14 +1,6 @@
 import { createTheme } from "@mui/material";
 
 const theme = createTheme({
-    breakpoints: {
-        values: {
-            mobile: 0, 
-            tablet: 700, 
-            laptop: 1330, 
-            desktop: 1650
-        }
-    }, 
     typography: {
         contentText1: { 
             fontSize: "2.3rem",
@@ -35,6 +27,10 @@ const theme = createTheme({
         contentText7: {
             fontSize: "1rem", 
             fontWeight: 600
+        }, 
+        contentText8: {
+            fontSize: "2.3rem",
+            fontWeight: 700, 
         }
     }, 
     palette: {
