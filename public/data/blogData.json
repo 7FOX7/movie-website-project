@@ -1,49 +1,48 @@
 [
     {
       "id": 339241,
-      "thumbnail": "../../src/images/blogs/blog-1.jpg", 
+      "thumbnail": "./images/blogs/blog-1.jpg", 
       "category": "Movie Theatre",
       "title": "Dolorum optio tempore voluptas dignissimos", 
       "author": {
         "name": "Adriana Fixen",
-        "image": "../../src/images/blogs/blog-author-1.jpg"
+        "image": "./images/blogs/blog-author-1.jpg"
       },
       "date": "Jan 1, 2024"
-
     },
 
     {
       "id": 218449,
-      "thumbnail": "../../src/images/blogs/blog-2.jpg",
+      "thumbnail": "./images/blogs/blog-2.jpg",
       "category": "Movie Theatre", 
       "title": "Possimus soluta ut id suscipit ea ut in quo quia et soluta",
       "author": {
         "name": "Monica Bulley",
-        "image": "../../src/images/blogs/blog-author-2.jpg"
+        "image": "./images/blogs/blog-author-2.jpg"
       },
       "date": "May 10, 2024"
     },
 
     {
       "id": 631134,
-      "thumbnail": "../../src/images/blogs/blog-3.jpg",
+      "thumbnail": "./images/blogs/blog-3.jpg",
       "category": "Movie Theatre", 
       "title": "Nisi magni odit consequatur autem nulla dolorem",
       "author": {
         "name": "Patrick K.Luse",
-        "image": "../../src/images/blogs/blog-author-3.jpg"
+        "image": "./images/blogs/blog-author-3.jpg"
       },
       "date": "June 23, 2024"
     },
 
     {
       "id": 634921,
-      "thumbnail": "../../src/images/blogs/blog-4.jpg",
+      "thumbnail": "./images/blogs/blog-4.jpg",
       "category": "Movie Theatre", 
       "title": "Non rem rerum nam cum quo minus olor distincti",
       "author": {
         "name": "Carly Pudey",
-        "image": "../../src/images/blogs/blog-author-4.jpg"
+        "image": "./images/blogs/blog-author-4.jpg"
       },
       "date": "July 23, 2024"
     }
